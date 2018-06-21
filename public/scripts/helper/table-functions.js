@@ -42,7 +42,7 @@ const createCol = (rowIndex, width) => {
 // create a board based on given dimensions
 const createBoard = dim => {
   // create a board element
-  const $table = $('#my-board table');
+  const $table = $('<table>');
   // max col index is 'Z' (width: 26). If width exceeds 26, set width to 26
   if (dim.width > 26) dim.width = 26;
   // append the col legend row first
