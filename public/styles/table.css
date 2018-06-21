@@ -14,6 +14,22 @@ td.legendTd {
   text-align: center;
 }
 
-td.hover {
+td.selected {
   background-color: red;
+}
+
+.tooltip {
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.tooltip span {
+  display: none;
+}
+
+.tooltip:hover span {
+  display: block;
+  position: fixed;
+  overflow: hidden;
 }
