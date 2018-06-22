@@ -1,3 +1,9 @@
+table {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 td {
   border: 1px solid black;
   width: 50px;
@@ -14,8 +20,12 @@ td.legendTd {
   text-align: center;
 }
 
-td.selected {
+td.warning {
   background-color: red;
+}
+
+td.ok {
+  background-color: blue;
 }
 
 .tooltip {
