@@ -60,7 +60,7 @@ const showWarning = (shipSize, cellLine) => {
   const tooltip = $('span.tooltip').text(warning);
   const x = event.clientX;
   const y = event.clientY;
-  tooltip.css('top', `${y - 25}px`);
+  tooltip.css('top', `${y - 650}px`);
   tooltip.css('left', `${x}px`);
 };
 
